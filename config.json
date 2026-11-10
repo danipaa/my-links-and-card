@@ -97,7 +97,7 @@
     "company": "Daxator Studios",
     "title": "Founder",
     "phone": "+971585995304",
-    "email": "",
+    "email": "daniyalmurtaza5253@gmail.com",
     "website": "https://daxator.vercel.app"
   },
   "stats": [
@@ -118,10 +118,10 @@
   "clientsTitle": "Worked with",
   "clients": [
     {
-      "mark": "ADNOC",
-      "color": "blue",
-      "name": "ADNOC",
-      "what": "Anamorphic 3D LED billboard · Dubai"
+      "mark": "PANDA",
+      "color": "green",
+      "name": "Panda Creations",
+      "what": "3D generalist · Dubai"
     },
     {
       "mark": "A24/7",
@@ -130,16 +130,16 @@
       "what": "CGI animations · Karachi"
     },
     {
-      "mark": "PANDA",
-      "color": "green",
-      "name": "Panda Creations",
-      "what": "3D generalist · Dubai"
-    },
-    {
       "mark": "GP",
       "color": "yellow",
       "name": "Gamepak Studios",
       "what": "3D modeler · Karachi"
+    },
+    {
+      "mark": "ADNOC",
+      "color": "blue",
+      "name": "ADNOC",
+      "what": "Anamorphic 3D LED billboard · Dubai"
     }
   ],
   "servicesTitle": "What I make",
