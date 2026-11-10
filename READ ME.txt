@@ -1,0 +1,49 @@
+DAXATOR PROFILE SITE v2 - SETUP GUIDE
+=====================================
+
+WHAT'S NEW
+- Proper laptop/desktop layout (2 columns), bigger bold arrows on buttons.
+- Your own Linktree-style editor at  yoursite.vercel.app/admin
+  Edit buttons, photo, text, stickers, clients, services -> tap Publish ->
+  Vercel updates the live site automatically in about 1 minute.
+
+
+STEP 1 - PUT THE FILES ON GITHUB (replaces the old site)
+  1. Open your GitHub repository (e.g. "daxator").
+     (No repo yet? github.com -> "+" -> New repository -> name it daxator -> Create.)
+  2. Click "Add file" -> "Upload files".
+  3. Drag in EVERYTHING from this folder: index.html, config.json, vercel.json,
+     og.jpg, and the "assets" and "admin" folders. Click "Commit changes".
+     (If GitHub asks, replace the old files.)
+
+STEP 2 - VERCEL
+  - Already connected to this repo? Nothing to do. It updates by itself.
+  - New? vercel.com -> sign in with GitHub -> Add New -> Project ->
+    import "daxator" -> Deploy.
+
+STEP 3 - CONNECT THE EDITOR (one time, 3 minutes)
+  1. Make a GitHub token:
+     GitHub -> your photo -> Settings -> Developer settings ->
+     Personal access tokens -> Fine-grained tokens -> Generate new token
+       - Name: Daxator admin
+       - Expiration: pick the longest option
+       - Repository access: Only select repositories -> daxator
+       - Permissions -> Repository permissions -> Contents: Read and write
+     -> Generate token -> copy it.
+  2. Open  https://YOUR-SITE.vercel.app/admin
+  3. In "GitHub connection": your GitHub username, repo name (daxator),
+     leave branch empty, paste the token -> "Save & test".
+     It turns green: "Connected to GitHub".
+
+HOW TO USE THE EDITOR
+  - Buttons: tap one to edit; arrows to reorder; eye to hide; "+ Add a button".
+  - Live preview on the right (on phone: "Preview" tab). Phone/Laptop switch.
+  - Tap "Publish". Live in ~1 minute.
+  - Unpublished edits are kept on that device if you close the page.
+  - "Site & WhatsApp preview" -> set your real Vercel link there once and
+    publish; it fixes the WhatsApp preview image link automatically.
+
+SAFETY
+  - The token is saved only in the browser where you typed it. It never goes
+    on the website. Anyone can open /admin, but nobody can publish without it.
+  - Lost phone / new device? GitHub -> the token -> Delete, then make a new one.

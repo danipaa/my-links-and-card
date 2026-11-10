@@ -1,0 +1,53 @@
+{
+  "site": {
+    "url": "https://daxator.vercel.app",
+    "title": "Daniyal Murtaza · Daxator Studios",
+    "description": "3D animation, motion design & video production. Top Rated on Upwork. Tap to see my work ✦"
+  },
+  "profile": {
+    "name": "Daniyal Murtaza",
+    "role": "Founder",
+    "company": "Daxator Studios",
+    "tagline": "I make brands *move*: 3D, animation & video people stop scrolling for.",
+    "photo": "assets/daniyal.webp",
+    "logo": "assets/logo.png",
+    "available": true,
+    "availableText": "Available for projects"
+  },
+  "stickers": ["⭐ TOP RATED · UPWORK", "3D WIZARD 🧙", "SINCE 2019 ✌️", "ADNOC ✔"],
+  "marquee": ["3D ANIMATION", "ANAMORPHIC BILLBOARDS", "MOTION DESIGN", "RESTAURANT REELS", "CGI ADS", "PRODUCT RENDERS", "VIDEO PRODUCTION"],
+  "linksTitle": "Let's connect",
+  "links": [
+    { "id": "portfolio", "type": "link", "icon": "🎬", "title": "See my portfolio", "subtitle": "3D, animation & video work", "url": "https://daxatorportfolio.my.canva.site", "color": "orange", "show": true },
+    { "id": "whatsapp", "type": "whatsapp", "icon": "💬", "title": "WhatsApp me", "subtitle": "Fastest way to reach me", "number": "971585995304", "message": "Hi Daniyal! I saw your profile and I'd like to talk about a project.", "color": "green", "show": true },
+    { "id": "call", "type": "phone", "icon": "📞", "title": "Call me", "subtitle": "+971 58 599 5304", "number": "+971585995304", "color": "yellow", "show": true },
+    { "id": "upwork", "type": "link", "icon": "⭐", "title": "Hire me on Upwork", "subtitle": "Top Rated freelancer", "url": "", "color": "white", "show": false },
+    { "id": "email", "type": "email", "icon": "✉️", "title": "Email me", "subtitle": "", "email": "", "color": "blue", "show": false },
+    { "id": "save", "type": "vcard", "icon": "💾", "title": "Save my contact", "subtitle": "Add me to your phone", "color": "black", "show": true }
+  ],
+  "contact": { "name": "Daniyal Murtaza", "company": "Daxator Studios", "title": "Founder", "phone": "+971585995304", "email": "", "website": "https://daxator.vercel.app" },
+  "stats": [
+    { "big": "Top Rated", "small": "on Upwork" },
+    { "big": "{years} yrs", "small": "freelancing since 2019" },
+    { "big": "Blender", "small": "since version 2.77" }
+  ],
+  "sinceYear": 2019,
+  "clientsTitle": "Worked with",
+  "clients": [
+    { "mark": "ADNOC", "color": "blue", "name": "ADNOC", "what": "Anamorphic 3D LED billboard · Dubai" },
+    { "mark": "A24/7", "color": "orange", "name": "Aroma 24/7", "what": "CGI animations · Karachi" },
+    { "mark": "PANDA", "color": "green", "name": "Panda Creations", "what": "3D generalist · Dubai" },
+    { "mark": "GP", "color": "yellow", "name": "Gamepak Studios", "what": "3D modeler · Karachi" }
+  ],
+  "servicesTitle": "What I make",
+  "services": [
+    { "icon": "🧊", "title": "3D Animation" },
+    { "icon": "🏙️", "title": "Anamorphic Billboards" },
+    { "icon": "✨", "title": "Motion Design" },
+    { "icon": "🎬", "title": "Restaurant Reels" },
+    { "icon": "📦", "title": "Product Renders" },
+    { "icon": "🚀", "title": "CGI Ads" }
+  ],
+  "cta": { "title": "Got an idea?", "highlight": "Let's make it move.", "text": "Send me a message and let's get started.", "button": "Message me on WhatsApp" },
+  "footer": "Daxator Studios · Karachi, Pakistan"
+}
